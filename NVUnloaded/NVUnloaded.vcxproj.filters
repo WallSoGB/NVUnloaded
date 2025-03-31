@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\shared\SafeWrite\SafeWrite.cpp">
+      <Filter>shared</Filter>
+    </ClCompile>
+    <ClCompile Include="internal\Game\Bethesda\BSShaderManager.cpp">
+      <Filter>Game\Bethesda</Filter>
+    </ClCompile>
+    <ClCompile Include="internal\Game\Gamebryo\NiFixedString.cpp">
+      <Filter>Game\Gamebryo</Filter>
+    </ClCompile>
+    <ClCompile Include="internal\Game\Gamebryo\NiGlobalStringTable.cpp">
+      <Filter>Game\Gamebryo</Filter>
+    </ClCompile>
+    <ClCompile Include="internal\Game\Gamebryo\NiD3DTextureStage.cpp">
+      <Filter>Game\Gamebryo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\shared\SafeWrite\SafeWrite.hpp">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\shared\Defines.hpp">
+      <Filter>shared</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\Game\Bethesda\BSShaderManager.hpp">
+      <Filter>Game\Bethesda</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\Game\Gamebryo\NiFixedString.hpp">
+      <Filter>Game\Gamebryo</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\Game\Gamebryo\NiGlobalStringTable.hpp">
+      <Filter>Game\Gamebryo</Filter>
+    </ClInclude>
+    <ClInclude Include="internal\Game\Gamebryo\NiD3DTextureStage.hpp">
+      <Filter>Game\Gamebryo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="shared">
+      <UniqueIdentifier>{2bbfd4c7-bc5c-4989-ae86-7f7f9536a38c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{c799fdc3-b6bc-46e9-bb4d-ad60187547f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Bethesda">
+      <UniqueIdentifier>{5b3da3d5-1cff-46a8-a99e-220627a7fdb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Gamebryo">
+      <UniqueIdentifier>{10082705-dd37-4e00-8de0-1a5fe1f5fdf5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
